@@ -6,7 +6,12 @@ from time import gmtime, strftime
 import os
 import base64
 import json
-import cv2
+print("Before importing cv2")
+try:
+    import cv2
+    print("cv2 import successful")
+except ImportError as e:
+    print(f"cv2 import failed: {e}")
 import numpy as np
 
 from facewrapper.facewrapper import ttv_version
