@@ -6,15 +6,7 @@ from time import gmtime, strftime
 import os
 import base64
 import json
-print("Before loading the library")
-liveness_engine = cdll.LoadLibrary(lib_path)
-print("Library loaded successfully")
-print("Before importing cv2")
-try:
-    import cv2
-    print("cv2 import successful")
-except ImportError as e:
-    print(f"cv2 import failed: {e}")
+import cv2
 import numpy as np
 
 from facewrapper.facewrapper import ttv_version
