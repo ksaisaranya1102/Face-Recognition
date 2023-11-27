@@ -6,6 +6,9 @@ from time import gmtime, strftime
 import os
 import base64
 import json
+print("Before loading the library")
+liveness_engine = cdll.LoadLibrary(lib_path)
+print("Library loaded successfully")
 print("Before importing cv2")
 try:
     import cv2
