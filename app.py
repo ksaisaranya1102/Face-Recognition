@@ -1,6 +1,3 @@
-sudo apt-get update
-sudo apt-get install -y libgl1-mesa-glx libsm6 libxrender1 libxext6
-pip install --upgrade opencv-python
 import sys
 sys.path.append('.')
 
@@ -9,7 +6,9 @@ from time import gmtime, strftime
 import os
 import base64
 import json
+print("Before importing cv2")
 import cv2
+print("After importing cv2")
 import numpy as np
 
 from facewrapper.facewrapper import ttv_version
