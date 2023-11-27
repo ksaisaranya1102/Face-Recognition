@@ -1,4 +1,4 @@
-pip install opencv-python
+opencv-python
 import sys
 sys.path.append('.')
 
