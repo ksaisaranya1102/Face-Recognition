@@ -6,9 +6,7 @@ from time import gmtime, strftime
 import os
 import base64
 import json
-print("Before importing cv2")
 import cv2
-print("After importing cv2")
 import numpy as np
 
 from facewrapper.facewrapper import ttv_version
