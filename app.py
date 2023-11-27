@@ -1,4 +1,5 @@
 opencv-python
+streamlit
 import sys
 sys.path.append('.')
 
