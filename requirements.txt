@@ -1,8 +1,6 @@
 flask
 flask-cors
 gradio
-streamlit
 opencv-python
 numpy==1.20.3
 pillow
-opencv-python==4.5.3.56
